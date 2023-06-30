@@ -11,7 +11,7 @@ const Navbar2 = () => {
     {['sm'].map((expand) => (
         <Navbar key={expand} variant="dark" bg="#01295c" expand={expand} className="mb-3">
           <Container fluid>
-            <Navbar.Brand href="/" ><div className='logo'>  <h3>Code<span>isready</span></h3></div></Navbar.Brand>
+            <Navbar.Brand href="/" ><div className='logo'>  <h3>Codeisready</h3></div></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
